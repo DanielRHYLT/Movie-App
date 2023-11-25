@@ -9,6 +9,21 @@
   </div>
 </template>
 
+<style>
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.movie-item {
+  width: 350px;
+  margin: 10px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+</style>
+
 <script>
 import axios from "axios";
 import MovieItem from "./MovieItem.vue";
@@ -37,7 +52,7 @@ export default {
       }
       axios.get(url, cabeceraToken).then(response => {
         console.log('API Response:', response.data);
-        this.movies = response.data
+        this.movies = response.data.results
         console.log("Movies: ",this.movies)
       }).catch(error => {
         console.log("Error: " + error)

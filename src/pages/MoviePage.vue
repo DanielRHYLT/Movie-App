@@ -55,6 +55,16 @@
   font-size: 14px;
   line-height: 1.5;
 }
+.movie-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 95%;
+  padding: 20px;
+  background-color: #f2f2f2;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
 </style>
 
 <script>

@@ -8,6 +8,7 @@
       <span class="rating">Calificación: {{ movie.vote_average }}</span>
       <span class="language">Lenguaje: {{ movie.original_language }}</span>
     </div>
+    <q-btn @click="addToFavorites(movie)" color="primary" icon="star" label="Agregar a favoritos" />
   </div>
 </template>
 

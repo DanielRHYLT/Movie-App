@@ -15,13 +15,6 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
 }
-.movie-item {
-  width: 350px;
-  margin: 10px;
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-}
 </style>
 
 <script>

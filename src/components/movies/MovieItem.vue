@@ -17,7 +17,7 @@
   width: 300px;
   height: 400px;
   margin: 10px;
-  border: 1px solid #130303;
+  border: 3px solid #1a0444;
   background-color: #ffffff;
 }
 
@@ -29,6 +29,8 @@
 .movie-card h3 {
   font-size: 18px;
   font-weight: bold;
+  text-align: center;
+  line-height: 1.5;
 }
 
 .movie-card p {
@@ -62,6 +64,7 @@
   text-decoration: none;
   color: #f00;
 }
+
 
 </style>
 

@@ -32,11 +32,14 @@
 }
 
 .movie-item {
-  width: 200px;
+  width: 350px;
+  height: 450px;
   margin: 10px;
-  background-color: #fff;
+  background-color: #e7d4d4;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
 }
 
 .movie-item img {
@@ -60,10 +63,23 @@
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  width: 95%;
+  width: 100%;
   padding: 20px;
-  background-color: #f2f2f2;
+  background-color: rgb(33, 4, 80);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+}
+h5 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.q-btn:before {
+  background-color: blue;
+  align-items: center;
+  justify-content: center;
 }
 </style>
 
